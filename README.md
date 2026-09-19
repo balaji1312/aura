@@ -71,12 +71,12 @@ python src/bin/decode_asr.py \
   --result_hyp_file results/myst_test/hyp.txt
 ```
 
-|                       Model                        |                                Hugging Face                                |
-| :------------------------------------------------: | :------------------------------------------------------------------------: |
-|      Whisper medium.en — MyST (child speech)       |    [model](https://huggingface.co/balaji1312/whisper-medium-myst-aura)     |
-|  Whisper large-v3 — TED-LIUM 3 (imperfect labels)  |  [model](https://huggingface.co/balaji1312/whisper-largev3-tedlium-aura)   |
-| Whisper medium.en — FluencyBank (disfluent speech) | [model](https://huggingface.co/balaji1312/whisper-medium-fluencybank-aura) |
-|    Whisper large-v3 — non-speech hallucination     | [model](https://huggingface.co/balaji1312/whisper-largev3-nonspeech-aura)  |
+|                         Model                          |                                Hugging Face                                |
+| :----------------------------------------------------: | :------------------------------------------------------------------------: |
+|        Whisper medium.en — MyST (child speech)         |    [model](https://huggingface.co/balaji1312/whisper-medium-myst-aura)     |
+|    Whisper large-v3 — TED-LIUM 3 (imperfect labels)    |  [model](https://huggingface.co/balaji1312/whisper-largev3-tedlium-aura)   |
+|   Whisper medium.en — FluencyBank (disfluent speech)   | [model](https://huggingface.co/balaji1312/whisper-medium-fluencybank-aura) |
+| Whisper large-v3 — non-speech hallucination (5 epochs) | [model](https://huggingface.co/balaji1312/whisper-largev3-nonspeech-aura)  |
 
 ## Citation
 
